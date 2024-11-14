@@ -11,7 +11,7 @@ jobs:
       matrix:
         jvm_flags: [
           "-XX:+UseZGC", 
-          "-XX:+ThreadStackSize=512",
+          "-XX:ThreadStackSize=512",
           "-XX:+TieredCompilation",
           "-XX:Xms=256m",
           "-XX:+PrintCompilation",
