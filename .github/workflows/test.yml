@@ -13,7 +13,7 @@ jobs:
           "-XX:+UseZGC", 
           "-XX:ThreadStackSize=512",
           "-XX:+TieredCompilation",
-          "-XX:Xms256m",
+          "-XX:-Xms256m",
           "-XX:+PrintCompilation",
         ]
     steps:
